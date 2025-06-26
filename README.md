@@ -1,3 +1,14 @@
+---
+title: "Sales Forecasting with LSTM"
+emoji: 📈
+colorFrom: indigo
+colorTo: pink
+sdk: streamlit
+sdk_version: "1.35.0"
+app_file: streamlit_app.py
+pinned: false
+---
+
 📈 Sales Forecasting with LSTM + Sentiment Analysis
 This project demonstrates a machine learning-based approach for sales forecasting using LSTM (Long Short-Term Memory) neural networks, enhanced with basic sentiment analysis insights. Built with Python and Streamlit, it provides an interactive dashboard to explore, analyze, and visualize time series sales data.
 
