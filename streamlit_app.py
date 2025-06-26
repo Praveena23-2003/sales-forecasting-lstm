@@ -10,8 +10,9 @@ st.set_page_config(page_title="📊 Sales Forecasting Dashboard", layout="wide")
 st.title("📈 Sales Forecasting with LSTM + Sentiment Analysis")
 
 # ========== File Paths ==========
-forecast_plot_path = "outputs/lstm_forecast_plot.png"
-forecast_csv_path = "outputs/lstm_forecast.csv"
+# NEW (use these if files are in root directory)
+forecast_df = pd.read_csv("lstm_forecast.csv")
+forecast_plot = "lstm_forecast_plot.png"
 
 # ========== Load Forecast Data ==========
 df = None
